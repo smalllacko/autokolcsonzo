@@ -138,12 +138,27 @@ namespace Kolcsonzo
 			return auto;
 		}
 
-		/*public static KolcsonozhetoAuto autobekeres()
+		public static KolcsonozhetoAuto autoBekeres()
         {
+			/*string rszam, 
+			string marka, 
+			int ev,
+			int utasok, 
+			int tartaly, 
+			double lpkm,
+			char kat*/
 
-        }
-		*/
-        
-		 
+
+
+
+
+
+
+		}
+		
+
+
+
+
 	}
 }
