@@ -2,7 +2,7 @@
 using System;
 
 
-namespace autokolcsonzoo
+namespace Kolcsonzo
 {
 
     public class KolcsonozhetoAuto
@@ -80,6 +80,10 @@ namespace autokolcsonzoo
 
 
 
+        //uj!!!
+        public void setGyartasiIdo(int ev) { gyartasEve = ev; }
+
+
         /*
          * tagfüggvények
          */
@@ -95,4 +99,3 @@ namespace autokolcsonzoo
 
     }
 }
-
