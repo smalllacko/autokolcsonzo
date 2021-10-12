@@ -31,8 +31,11 @@ namespace Kolcsonzo
 			flotta[3] = randomUjAuto(1);
 			flotta[4] = randomUjAuto(2);
 
+			flotta[5] = randomHasznaltAuto(3);
+			flotta[6] = randomHasznaltAuto(4);
 
-			for (int i = 0; i <= 4; i++)
+
+			for (int i = 0; i <= 6; i++)
 			{
 
 				Console.Write(flotta[i].getRendszam() + " ; ");
@@ -45,8 +48,8 @@ namespace Kolcsonzo
 				Console.Write(flotta[i].getBerelheto() + " ; ");
 				Console.WriteLine(flotta[i].getKategoria());
 			}
-
-
+			//flotta 5-6 ot fogjuk feltölteni
+			
 
 
 
@@ -120,9 +123,10 @@ namespace Kolcsonzo
 		}
 
 
-		public KolcsonozhetoAuto randomHasznaltAuto()
+		public static KolcsonozhetoAuto randomHasznaltAuto(int seed)
 		{
-			KolcsonozhetoAuto auto = randomUjAuto(1);
+			Random gen = new Random(seed);
+			KolcsonozhetoAuto auto = randomUjAuto(seed);
 
 			if (auto.getGyartasEve() == 2021)
 			{
@@ -134,7 +138,12 @@ namespace Kolcsonzo
 			return auto;
 		}
 
+		/*public static KolcsonozhetoAuto autobekeres()
+        {
 
+        }
+		*/
+        
 
 	}
 }
