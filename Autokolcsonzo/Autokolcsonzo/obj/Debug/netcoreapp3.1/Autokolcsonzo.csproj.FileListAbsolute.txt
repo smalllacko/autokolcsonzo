@@ -12,3 +12,17 @@ C:\Users\Tanulo\source\repos\autokolcsonzo\Autokolcsonzo\Autokolcsonzo\obj\Debug
 C:\Users\Tanulo\source\repos\autokolcsonzo\Autokolcsonzo\Autokolcsonzo\obj\Debug\netcoreapp3.1\Autokolcsonzo.dll
 C:\Users\Tanulo\source\repos\autokolcsonzo\Autokolcsonzo\Autokolcsonzo\obj\Debug\netcoreapp3.1\Autokolcsonzo.pdb
 C:\Users\Tanulo\source\repos\autokolcsonzo\Autokolcsonzo\Autokolcsonzo\obj\Debug\netcoreapp3.1\Autokolcsonzo.genruntimeconfig.cache
+C:\Users\lacus\Source\Repos\autokolcsonzo\Autokolcsonzo\Autokolcsonzo\bin\Debug\netcoreapp3.1\Autokolcsonzo.exe
+C:\Users\lacus\Source\Repos\autokolcsonzo\Autokolcsonzo\Autokolcsonzo\bin\Debug\netcoreapp3.1\Autokolcsonzo.deps.json
+C:\Users\lacus\Source\Repos\autokolcsonzo\Autokolcsonzo\Autokolcsonzo\bin\Debug\netcoreapp3.1\Autokolcsonzo.runtimeconfig.json
+C:\Users\lacus\Source\Repos\autokolcsonzo\Autokolcsonzo\Autokolcsonzo\bin\Debug\netcoreapp3.1\Autokolcsonzo.runtimeconfig.dev.json
+C:\Users\lacus\Source\Repos\autokolcsonzo\Autokolcsonzo\Autokolcsonzo\bin\Debug\netcoreapp3.1\Autokolcsonzo.dll
+C:\Users\lacus\Source\Repos\autokolcsonzo\Autokolcsonzo\Autokolcsonzo\bin\Debug\netcoreapp3.1\Autokolcsonzo.pdb
+C:\Users\lacus\Source\Repos\autokolcsonzo\Autokolcsonzo\Autokolcsonzo\obj\Debug\netcoreapp3.1\Autokolcsonzo.csproj.AssemblyReference.cache
+C:\Users\lacus\Source\Repos\autokolcsonzo\Autokolcsonzo\Autokolcsonzo\obj\Debug\netcoreapp3.1\Autokolcsonzo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lacus\Source\Repos\autokolcsonzo\Autokolcsonzo\Autokolcsonzo\obj\Debug\netcoreapp3.1\Autokolcsonzo.AssemblyInfoInputs.cache
+C:\Users\lacus\Source\Repos\autokolcsonzo\Autokolcsonzo\Autokolcsonzo\obj\Debug\netcoreapp3.1\Autokolcsonzo.AssemblyInfo.cs
+C:\Users\lacus\Source\Repos\autokolcsonzo\Autokolcsonzo\Autokolcsonzo\obj\Debug\netcoreapp3.1\Autokolcsonzo.csproj.CoreCompileInputs.cache
+C:\Users\lacus\Source\Repos\autokolcsonzo\Autokolcsonzo\Autokolcsonzo\obj\Debug\netcoreapp3.1\Autokolcsonzo.dll
+C:\Users\lacus\Source\Repos\autokolcsonzo\Autokolcsonzo\Autokolcsonzo\obj\Debug\netcoreapp3.1\Autokolcsonzo.pdb
+C:\Users\lacus\Source\Repos\autokolcsonzo\Autokolcsonzo\Autokolcsonzo\obj\Debug\netcoreapp3.1\Autokolcsonzo.genruntimeconfig.cache
