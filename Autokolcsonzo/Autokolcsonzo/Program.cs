@@ -33,9 +33,9 @@ namespace Kolcsonzo
 
 			flotta[5] = randomHasznaltAuto(3);
 			flotta[6] = randomHasznaltAuto(4);
+			flotta[7] = autobekeres();
 
-
-			for (int i = 0; i <= 6; i++)
+			for (int i = 0; i <= 7; i++)
 			{
 
 				Console.Write(flotta[i].getRendszam() + " ; ");
@@ -164,7 +164,7 @@ namespace Kolcsonzo
 			{
 				Console.WriteLine("Adja meg az autó gyártási évét:");
 				gyartev = Convert.ToInt32(Console.ReadLine());
-				if (gyartev >= 1908 && gyartev <= 2021)
+				if (gyartev >= 1960 || gyartev <= 2021)
 				{
 					ev = true;
 					Console.WriteLine("Gyártási év jó.");
@@ -180,7 +180,7 @@ namespace Kolcsonzo
 			{
 				Console.WriteLine("Adja meg az autó férőhelyének a számát:");
 				utasokszama = Convert.ToInt32(Console.ReadLine());
-				if (utasokszama >= 1 && utasokszama <= 9)
+				if (utasokszama >= 1 || utasokszama <= 9)
 				{
 					utas = true;
 					Console.WriteLine("Utasok száma jó.");
@@ -196,7 +196,7 @@ namespace Kolcsonzo
 			{
 				Console.WriteLine("Adja meg az autó tartály méretét:");
 				tartalym = Convert.ToInt32(Console.ReadLine());
-				if (tartalym >= 20 && tartalym <= 100)
+				if (tartalym >= 20 || tartalym <= 100)
 				{
 					tartaly = true;
 					Console.WriteLine("Tartály méret jó.");
@@ -211,8 +211,8 @@ namespace Kolcsonzo
 			do
 			{
 				Console.WriteLine("Adja meg az autó fogyasztását l/100km:");
-				lpkm = Double.Parse(Console.ReadLine());
-				if (lpkm >= 4.0 && lpkm <= 60.0)
+				lpkm = Convert.ToDouble(Console.ReadLine());
+				if (lpkm >= 4.2 || lpkm <= 10.8)
 				{
 					fogy = true;
 					Console.WriteLine("Fogyasztás jó.");
@@ -224,14 +224,20 @@ namespace Kolcsonzo
 				}
 			}
 			while (!fogy);
-			Console.WriteLine("Adja meg az autó kategoriáját(A vagy B vagy C):");
-			kat = Convert.ToChar(Console.ReadLine());
+			do
+			{
+				Console.WriteLine("Adja meg az autó kategoriáját(A vagy B vagy C):");
+				kat = Convert.ToChar(Console.ReadLine().ToUpper());
+
+			}
+			while (kat != 'A' && kat !='B' && kat!='C');
+			
 			Console.WriteLine("Autó bekérése megtörtént!");
 			KolcsonozhetoAuto auto = new KolcsonozhetoAuto(rszam, gyarto, gyartev, utasokszama, tartalym, lpkm, kat);
 			Console.ReadLine();
 			return auto;
-			
-		}
 
+
+		}
 	}
 }
