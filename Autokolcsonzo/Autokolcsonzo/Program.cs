@@ -239,5 +239,14 @@ namespace Kolcsonzo
 
 
 		}
+		public static void autokOsszeskm(KolcsonozhetoAuto[] t)
+        	{
+			int kmosszes = 0;
+            		for (int i = 0; i <7; i++)
+            		{
+				kmosszes += t[i].getMegtettKm();
+            		}
+			Console.WriteLine("Az autók összesen megtett kilómétere: "+kmosszes+" km");
+        	}
 	}
 }
